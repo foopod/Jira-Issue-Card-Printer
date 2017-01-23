@@ -80,3 +80,8 @@ gulp.task('build-bookmarklet-installation-site', function () {
         .pipe(gulp.dest(destDir));
 });
 
+gulp.task('build-bookmarklet-installation-site', function () {
+    return gulp.src('source-files/index.html')
+        .pipe(gulp.dest(destDir));
+});
+
