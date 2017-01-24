@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Card Printer Installation</title>
+    <link rel="shortcut icon" href="resources/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="bookmarkInstallation.css">
+    <style>
+      body {
+        padding: 16px;
+      }
+      .button {
+        height: 200px;
+        width: 200px;
+        margin: 32px;
+
+        background-image: url(http://i.imgur.com/YEkfr9B.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+        color: transparent;
+      }
+      .button > a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <b>Just Drag'n'Drop the example into your Bookmarks</b>
+    <div class="button">
+        <a href="javascript:(function()%7B var head %3D document.getElementsByTagName(%27head%27)%5B0%5D%3B var scriptElement %3D document.createElement(%27script%27)%3B scriptElement.src %3D %27https://jira.hashbrown.club/bookmarklet.js%27%3B head.appendChild(scriptElement)%3B head.removeChild(scriptElement)%3B %7D)()%3B">hashbrownify</a>
+    </div>
+    <p>
+    <b>How do I make the tickets?</b>
+    <div>
+      Just select your stories/bugs/tasks in Jira and then click the button!
+    </div>
+  </body>
+</html>
