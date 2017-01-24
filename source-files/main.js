@@ -106,7 +106,7 @@ var loadSettings = function() {
     var settings = global.settings = global.settings || {};
     settings.scale = parseFloat(cookies.read("card_printer_scale")) || 0.0;
     settings.rowCount = parseInt(cookies.read("card_printer_row_count")) || 2;
-    settings.colCount = parseInt(cookies.read("card_printer_column_count")) || 1;
+    settings.colCount = parseInt(cookies.read("card_printer_column_count")) || 2;
 
     settings.singleCardPage = parseBool(cookies.read("card_printer_single_card_page"), true);
     settings.hideDescription = parseBool(cookies.read("card_printer_hide_description"), false);
