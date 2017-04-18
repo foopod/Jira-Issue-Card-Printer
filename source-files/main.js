@@ -229,25 +229,25 @@ var getIconStyle = function(type) {
     switch (type.toLowerCase()) {
         case 'default':
             style.color = 'SILVER';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/objects.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/objects.png';
             style.size = '63%';
             break;
         case 'story':
         case 'user story':
             style.color = 'GOLD';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Bulb.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Bulb.png';
             style.size = '63%';
             break;
         case 'bug':
         case 'problem':
         case 'correction':
             style.color = 'CRIMSON';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Bug.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Bug.png';
             style.size = '63%';
             break;
         case 'epic':
             style.color = 'ROYALBLUE';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Flash.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Flash.png';
             style.size = '63%';
             break;
         case 'task':
@@ -257,28 +257,28 @@ var getIconStyle = function(type) {
         case 'unteraufgabe':
         case 'technische aufgabe':
             style.color = 'WHEAT';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Task.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Task.png';
             style.size = '63%';
             break;
         case 'new feature':
             style.color = 'LIMEGREEN';
-            style.image = "https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Plus.png";
+            style.image = "https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Plus.png";
             style.size = '63%';
             break;
         case 'improvement':
         case 'verbesserung':
             style.color = 'CORNFLOWERBLUE';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/Arrow.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Arrow.png';
             style.size = '63%';
             break;
         case 'research':
             style.color = 'MEDIUMTURQUOISE';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/ErlenmeyerFlask.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/ErlenmeyerFlask.png';
             style.size = '63%';
             break;
         case 'test':
             style.color = 'ORANGE';
-            style.image = 'https://qoomon.github.io/Jira-Issue-Card-Printer/resources/icons/CrashDummy.png';
+            style.image = 'https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/CrashDummy.png';
             style.size = '63%';
             break;
     }
