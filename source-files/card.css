@@ -42,7 +42,7 @@ body {
     width: 100%;
     border-style: solid;
     border-bottom-width: 0.5rem;
-    border-image: url(https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/Tearing.png);
+    border-image: url(https://jira.hashbrown.club/resources/Tearing.png);
     border-image-width: 0 0 0.7rem 0;
     border-image-slice: 56 0 56 1;
     border-image-repeat: round round;
@@ -224,7 +224,7 @@ body {
   height: 2.0rem;
   border-radius: 50%;
   background-color: LIGHTSKYBLUE;
-  background-image: url(https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/Attachment.png);
+  background-image: url(https://jira.hashbrown.club/resources/icons/Attachment.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;
@@ -301,7 +301,7 @@ body {
   height: 2.5rem;
   border-radius: 50%;
   background-color: ORCHID;
-  background-image: url(https://jira.hashbrown.club/Jira-Issue-Card-Printer/resources/icons/AlarmClock.png);
+  background-image: url(https://jira.hashbrown.club/resources/icons/AlarmClock.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 65%;
